@@ -507,18 +507,23 @@ body {
 .content {
   position: relative;
   margin-bottom: -120px;
-  display: none; }
+  display: none;
+  min-height: 500px; }
 
 .live {
   padding: 3px 10px;
   background-color: #21C613;
   color: #fff;
   position: absolute;
-  top: 30px;
-  right: 32px; }
+  top: 2%;
+  right: 2%; }
 
 .content_active {
   display: block; }
+
+.motors {
+  -o-object-fit: cover;
+     object-fit: cover; }
 
 .customers__row {
   display: -webkit-box;
